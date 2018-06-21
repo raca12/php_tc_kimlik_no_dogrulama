@@ -4,10 +4,10 @@ if(@$_POST["gonder"])
 {
 
 					$TCKimlikNo = $_POST["KimlikNo"];
-		            $Ad =$_POST["Ad"];
+		                        $Ad =$_POST["Ad"];
 					$Soyad =$_POST["Soyad"];
 					
-                    $DogumTarihi = $_POST["DogumTarihi"];
+                                        $DogumTarihi = $_POST["DogumTarihi"];
 
 					$tarih_ayir = explode('.', $DogumTarihi);
 					$DogumGun   = $tarih_ayir[0];
@@ -32,7 +32,7 @@ if(@$_POST["gonder"])
 <html lang="tr">
 <head>
 <meta charset="utf-8">
-<title>PHP ile Yabancı Kimlik No Doğrulama</title>
+<title>PHP ile Kimlik No Doğrulama</title>
 <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
 
 <script type="text/javascript" src="//code.jquery.com/jquery-2.1.1.min.js"></script>
