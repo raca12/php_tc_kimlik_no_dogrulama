@@ -15,6 +15,8 @@
 
 4)PHP Curl ve Soap aktif değilse sadece Algoritma ile doğruluk kontrolü yapar.
 
+Geliştirici: Murat KARAGÖZ (murat.karagoz@hotmail.com.tr)
+
 ## Kullanım
 ```php
 include 'tckimlikno.php';
