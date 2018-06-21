@@ -2,6 +2,7 @@
 PHP İLE TC KİMLİK NO KONTROLÜ
 
 Özellikleri:
+
 1)Algoritma ile TC Kimlik No ve Yabancı Kimlik No doğruluk kontrolü yapar,
 
 2)Nüfus ve Vatandaşlık İşleri Genel Müdürlüğü ile 
