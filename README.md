@@ -1,5 +1,5 @@
 
-PHP İLE TC KİMLİK NO KONTROLÜ
+PHP İLE TC KİMLİK NO DOĞRULAMA
 
 Özellikleri:
 
