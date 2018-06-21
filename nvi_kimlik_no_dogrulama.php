@@ -4,7 +4,7 @@
 //******This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License. Link: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
 
 
-if(@$_POST["gonder"])
+if (  isset( $_REQUEST['TCKimlikNo'] )  and   !empty($_REQUEST['TCKimlikNo'])  )     // form gönderilmediyse yada boşsa aktif olmasın
 {
 
 
