@@ -16,7 +16,7 @@
 4)PHP Curl ve Soap aktif değilse sadece Algoritma ile doğruluk kontrolü yapar.
 
 ## Kullanım
-
+```php
 include 'tckimlikno.php';
 $tckimliknokontrolu = new TCKimlikNoSinifi;
 
@@ -37,7 +37,7 @@ $sonuc= $tckimliknokontrolu->KimlikNoDogrula("11111111111","Ad","Soyad","Doğum 
  
  //Yeni Kimlik Kartı Doğrulama  (Nüfus Müdürlüğüne bağlanıp kontrol eder)
  $sonuc= $tckimliknokontrolu->KimlikKartiDogrula("11111111111","Ad","Soyad","Doğum Günü","Doğum Ayı","Doğum Yılı","Kimlik Kartı Seri No");
-   
+ ``` 
 
 ### Lisans
 Creative Commons Atıf-GayriTicari-Türetilemez 4.0 Uluslararası Kamu Lisansı ile lisanslanmıştır. Detaylar için LİSANS dosyasına bakın.
