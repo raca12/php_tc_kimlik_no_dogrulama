@@ -4,10 +4,10 @@ if(@$_POST["gonder"])
 {
 
 					$TCKimlikNo = $_POST["KimlikNo"];
-		            $Ad =$_POST["Ad"];
+		                       $Ad =$_POST["Ad"];
 					$Soyad =$_POST["Soyad"];
 					
-                    $DogumTarihi = $_POST["DogumTarihi"];
+                                        $DogumTarihi = $_POST["DogumTarihi"];
 
 					$tarih_ayir = explode('.', $DogumTarihi);
 					$DogumGun   = $tarih_ayir[0];
@@ -40,8 +40,6 @@ if(@$_POST["gonder"])
 
 <link rel="stylesheet" type="text/css" media="screen" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
 <script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-
-<script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment-with-locales.js"></script>
 
 <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.8.0/css/bootstrap-datepicker3.css" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.8.0/js/bootstrap-datepicker.min.js"></script>
@@ -104,7 +102,7 @@ echo '<div class="alert alert-danger"><strong>HATA!</strong> Bilgiler uyuşmadı
 
 <script type="text/javascript">
 $('#DogumTarihi').datepicker({
-	format: "mm.dd.yyyy",
+    format: "dd.mm.yyyy",
     language: "tr",
     autoclose: true,
     defaultViewDate: { year: 1977, month: 04, day: 25 }
