@@ -1,5 +1,8 @@
 
 <?php
+// 21.06.2018  Murat Karagöz    https://github.com/muratkaragoz/php_ve_algoritma_ile_tc_kimlik_no_dogrulama
+//******This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License. Link: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+
 
 if(@$_POST["gonder"])
 {
